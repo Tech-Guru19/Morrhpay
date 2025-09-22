@@ -1,15 +1,5 @@
 import React, { useState } from "react";
 
-/**
- * Single-page MorrhPay site:
- * - Home
- * - About
- * - Partner With Us (form -> save to localStorage)
- * - Terms & Conditions + Privacy (legal pages)
- *
- * Uses Bootstrap classes. Add the Bootstrap CSS link to index.html (CDN).
- */
-
 const COMPANY_ACCOUNT = {
   bank: "MorrhPay Bank",
   acctName: "MORRHPAY LIMITED",
@@ -18,8 +8,8 @@ const COMPANY_ACCOUNT = {
 };
 
 const PAYMENT_RULES = {
-  maxAmount: 5000000, // maximum allowable amount (e.g. NGN 5,000,000)
-  confirmWindowDays: 7, // days to confirm payment
+  maxAmount: 5000000, 
+  confirmWindowDays: 7, 
   refundPolicy:
     "If payment isn't confirmed within the confirmation window, a refund will be issued to the SAME ACCOUNT WHICH SENT THE PAYMENT.",
 };
@@ -64,7 +54,7 @@ function Hero() {
     }}>
       <div className="container text-center">
         <h1 className="display-5 fw-bold">MorrhPay — Simple, Secure Payments for Good</h1>
-        <p className="lead mt-3 mb-4">Send support, manage partners, and track impact — all in one place.</p>
+        <p className="lead mt-3 mb-4">Send support, manage partners, and track impact all in one place.</p>
         <a href="#partner" className="btn btn-light btn-lg" style={{ color: "#173321" }}>Partner With Us</a>
       </div>
     </header>
@@ -139,7 +129,7 @@ function PartnerFormSection() {
     existing.unshift(partner);
     localStorage.setItem("morrhpay_partners", JSON.stringify(existing));
     setSuccess(true);
-    // reset fields slightly after success
+    
     setCompany(""); setContact(""); setEmail(""); setPhone(""); setCountry(""); setAcctName(""); setAcctNumber(""); setMessage("");
     setErrors({});
   };
