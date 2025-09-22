@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // <- this includes Popper
+
 
 const COMPANY_ACCOUNT = {
   bank: "MorrhPay Bank",
@@ -129,7 +132,7 @@ function PartnerFormSection() {
     existing.unshift(partner);
     localStorage.setItem("morrhpay_partners", JSON.stringify(existing));
     setSuccess(true);
-    
+
     setCompany(""); setContact(""); setEmail(""); setPhone(""); setCountry(""); setAcctName(""); setAcctNumber(""); setMessage("");
     setErrors({});
   };
