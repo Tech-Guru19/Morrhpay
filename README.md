@@ -1,12 +1,30 @@
-# React + Vite
+# 💳 MorrhPay — Simple, Secure Payments for Good
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **payment orchestration landing page** built with React and Bootstrap. MorrhPay is positioned as a transparent platform for donations and partner payments — complete with terms, privacy, and a partner program.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏠 **Hero + About** — brand story and mission
+- 🤝 **Partner program** — partner with MorrhPay flow
+- 💰 **Payment rules** — configurable max amount (₦5,000,000), 7-day confirmation window, and refund policy
+- 📄 **Terms & Privacy pages** — full legal pages
+- 🎨 **Brand identity** — deep green (#173321) theme
 
-## Expanding the ESLint configuration
+## 🧱 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 + Vite
+- React Bootstrap + Bootstrap 5
+- React Router 7
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Tech-Guru19/Morrhpay.git
+cd Morrhpay
+npm install
+npm run dev
+```
+
+## 👩‍💻 Author
+
+**[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)**
