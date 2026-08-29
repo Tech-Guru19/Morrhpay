@@ -1,22 +1,24 @@
-# 💳 MorrhPay — Simple, Secure Payments for Good
+# MorrhPay
 
-A **payment orchestration landing page** built with React and Bootstrap. MorrhPay is positioned as a transparent platform for donations and partner payments — complete with terms, privacy, and a partner program.
+## Overview
 
-## ✨ Features
+A payment orchestration landing page built with React and Bootstrap. MorrhPay is positioned as a transparent platform for donations and partner payments, featuring complete terms and privacy documentation.
 
-- 🏠 **Hero + About** — brand story and mission
-- 🤝 **Partner program** — partner with MorrhPay flow
-- 💰 **Payment rules** — configurable max amount (₦5,000,000), 7-day confirmation window, and refund policy
-- 📄 **Terms & Privacy pages** — full legal pages
-- 🎨 **Brand identity** — deep green (#173321) theme
+## Key Features
 
-## 🧱 Tech Stack
+- **Landing page:** Hero and about sections communicating the brand mission
+- **Partner program:** Structured partner onboarding flow
+- **Payment rules:** Configurable maximum amount, 7-day confirmation window, and refund policy
+- **Legal pages:** Full terms and privacy documentation
+- **Brand identity:** Distinctive deep green theme
 
-- React 19 + Vite
-- React Bootstrap + Bootstrap 5
+## Technology Stack
+
+- React 19 with Vite
+- React Bootstrap and Bootstrap 5
 - React Router 7
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Tech-Guru19/Morrhpay.git
@@ -25,6 +27,6 @@ npm install
 npm run dev
 ```
 
-## 👩‍💻 Author
+## Author
 
-**[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)**
+[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)
